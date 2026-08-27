@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: dhandhapaani-website
+    runtime: static
+    buildCommand: unzip -q website.zip -d site
+    staticPublishPath: ./site
+    autoDeploy: true
