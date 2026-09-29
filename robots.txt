@@ -1,3 +1,4 @@
+# DhandhaPaani.com crawler policy
 User-agent: *
 Allow: /
 
